@@ -1,0 +1,2 @@
+
+<?php echo $__env->make('layout', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\Users\X1\projet php\resources\views/login.blade.php ENDPATH**/ ?>
