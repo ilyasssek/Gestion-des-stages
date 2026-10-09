@@ -1,0 +1,60 @@
+/* --- Styles pour la section formulaire --- */
+.main-content {
+    margin-left: 270px; /* Si sidebar présente */
+    padding: 30px;
+    background-color: #fff;
+    min-height: 100vh;
+    box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.main-content h2 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.form-control-file {
+    display: block;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+    cursor: pointer;
+    transition: border-color 0.3s;
+}
+
+.form-control-file:hover {
+    border-color: #007bff;
+}
+
+.btn-primary {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}

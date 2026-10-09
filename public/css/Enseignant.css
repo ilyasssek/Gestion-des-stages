@@ -1,0 +1,83 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../images/espace-enseignant_image-2.png');
+    background-position: center;
+    background-size: contain;
+    font-family: Arial, sans-serif;
+  }
+  .signup-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      width: 100%;
+    }
+    
+    .signup-container {
+    background: rgba(255, 255, 255, 0.7); /* Fond blanc avec 50% de transparence */
+    border-radius: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optionnel : ajoute une ombre pour mieux distinguer */
+    padding: 30px;
+    width: 500px;
+    text-align: center;
+  }
+  
+    
+    
+    .signup-container h2 {
+      font-size: 40px;
+      color: #333;
+      margin-bottom: 20px;
+    }
+    
+    .name-fields {
+      display: flex;
+      justify-content: space-between;
+      gap: 10px;
+      margin-bottom: 15px;
+    }
+    
+    .name-fields div {
+      flex: 1;
+    }
+    
+    .signup-container label {
+      display: block;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+    
+    .signup-container input {
+      width: 180%;
+      padding: 8px;
+      margin-top: 20px;
+      border: 1px solid #ccc;
+      border-radius: 9px;
+    }
+    
+    .signup-container button {
+      margin-top: 20px;
+      padding: 10px;
+      width: 180%;
+      background-color:#007bff ;
+      color: white;
+      border: none;
+      border-radius: 9px;
+      cursor: pointer;
+    }
+    
+    .signup-container button:hover {
+      background-color: #16cdfb;
+    }
+  
+    .test
+      {
+          gap: 50px;
+      }
+   
+  

@@ -1,0 +1,415 @@
+html, body {
+    width: 100%;
+    height: 120%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: white;
+}
+/* body {
+    background-image: url('image2.jpg');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center; 
+} */
+
+.container
+{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.nav_bar
+{
+    width: 100%;
+    height: 10%;
+    gap: 2%;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(8, 8, 8);
+}
+
+.nav
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+    height: 70%;
+    border: 2px, solid, black;
+    border-radius: 10px;
+    /* background-color: rgba(255, 255, 255, 0.7); */
+    background-color: rgba(131, 145, 147, 0.7);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+ }
+
+ 
+ .nav:hover {
+    transform: scale(1.1); /* Increases the size by 10% */
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Adds a shadow for effect */
+}
+.logo
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 22%;
+    height: 100%;
+ }
+.text_home
+{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    backdrop-filter: blur(10px);
+
+}
+
+
+.prorpos
+{
+    width: 100%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: rgb(8, 8, 8);
+    gap: 2%;
+}
+
+
+.text1
+{
+    width: 40%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 20px;
+    background-color: rgba(131, 145, 147, 0.7);
+    border-radius: 10px;
+    border: 3px solid black;
+}
+
+.text1:hover {
+    transform: scale(1.1); 
+    background-color: white;
+}
+
+
+.imggg
+{
+    width: 45%;
+    height: 75%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+}
+
+
+
+.home
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+    height: 60%;
+    gap: 5%;
+}
+
+.text_home {
+    width: 100%;
+    height: 100%;
+    background-image: url('../images/image0.jpg');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center; 
+}
+
+
+.text
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 40%;
+}
+.text > h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-weight: 600;
+    color: white;
+    width: 100%; /* Ensures the container spans full width */
+    white-space: nowrap; /* Prevents text wrapping */
+    overflow: hidden; /* Hides the overflowing text initially */
+    border-right: 5px solid white; /* Adds a cursor effect */
+    animation: typing 4s steps(30, end) forwards, 
+               cursor 0.7s step-end infinite alternate;
+}
+
+/* Typing animation */
+@keyframes typing {
+    from {
+        width: 0; /* Starts with no visible text */
+    }
+    to {
+        width: 100%; /* Reveals the full text */
+    }
+}
+
+/* Cursor blinking animation */
+@keyframes cursor {
+    from {
+        border-right-color: white; /* Cursor visible */
+    }
+    to {
+        border-right-color: transparent; /* Cursor hidden */
+    }
+}
+
+
+
+
+.card
+{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 20%;
+    height: 45%;
+    color: white;
+    border-radius: 10px;
+    background-color:  rgba(131, 145, 147, 0.7);
+    border: 3px solid black;
+    /* backdrop-filter: blur(5px); */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.1); /* Increases the size by 10% */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); /* Adds a shadow for effect */
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+
+
+.contact11
+{
+    width: 100%;
+    height: 25%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 15px;
+}
+.contact111
+{
+    width: 47%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid white;
+    background-color: rgba(131, 145, 147, 0.7);
+    border-radius: 10px;
+}
+
+.style-img
+{
+    border-radius: 10px
+}
+
+.txt
+{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+.txt
+{
+    font-size: 130%;
+}
+
+.contact
+{
+    width: 100%;
+    height: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background-color: rgb(0, 0, 0);
+}
+
+.conatct1
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5%;
+}
+
+.adress
+{
+    width: 87%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(131, 145, 147, 0.7);
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+.adress:hover {
+    transform: scale(1.1);
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+.email-call
+{
+    width: 87%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 5%;
+}
+
+.email
+{
+    width: 47%;
+    height: 87%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid white;
+    background-color: rgba(131, 145, 147, 0.7);
+    border-radius: 10px;
+}
+.email:hover {
+    transform: scale(1.1);
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+
+.call
+{
+    width: 47%;
+    height: 87%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: rgba(131, 145, 147, 0.7);
+}
+
+.call:hover {
+    transform: scale(1.1);
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+
+
+.conatct2
+{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.send-email
+{
+    width: 90%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(131, 145, 147, 0.7);
+    border: 2px solid white;
+    border-radius: 10px;
+    gap: 3%;
+}
+
+.input1
+{
+    width: 80%;
+    height: 10%;
+    font-size: 100%;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+.input2
+{
+    width: 80%;
+    height: 30%;
+    font-size: 100%;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+.input2::placeholder {
+    text-align: left; /* Si vous voulez aligner à gauche */
+    vertical-align: top; /* Cela ne fonctionne pas dans un <input>, mais ajouté pour clarifier */
+    transform: translateY(0); /* Alignement vertical si besoin */
+}
+
+.stylebtn
+{
+    width: 20%;
+    height: 8%;
+    border: 2px solid white;
+    
+    border-radius: 10px;
+}
+.stylebtn:hover {
+    transform: scale(1.1);
+}
+
+
+
+
+
